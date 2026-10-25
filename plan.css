@@ -1,0 +1,328 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body
+{
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.page
+{
+    width: 700px;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    text-align: left;
+    overflow: hidden;
+}
+
+.headerbox
+{
+    background-color: #127369;
+    color: #ffffff;
+    padding: 24px 30px;
+    height: 110px;
+}
+
+.headerbox h1
+{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.headerbox td
+{
+    border: none;
+    vertical-align: middle;
+}
+
+.group img
+{
+    width: 120px;
+    height: auto;
+    margin-right: 10px;
+    margin-top: 4px;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-right: 10px;
+}
+
+.group
+{
+   text-align: center;
+}
+
+.headtext
+{
+    overflow: hidden;
+    display: inline-block;
+    color: #ffffff;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.tagline
+{
+    font-size: 13px;
+    font-style: italic;
+    opacity: 0.9;
+    padding-top: 5px;
+}
+
+.navigationbar
+{
+    background-color: #d1ebe5;
+    padding: 10px 30px;
+    overflow: hidden;
+}
+
+.link
+{
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 4px;
+    color: #127369;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 10px;
+    float: left;
+}
+
+.link.active
+{
+    background-color: #127369;
+    color: white;
+}
+
+.content
+{
+    padding: 30px;
+    overflow: hidden;
+}
+
+.contentarea h2
+{
+    color: #127369;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.detail
+{
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.backlink
+{
+    display: inline-block;
+    color: #1d70b8;
+    text-decoration: none;
+    font-size: 13px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    clear: both;
+}
+
+.tripform
+{
+    background-color: #eaf6f4;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #d0e7e3;
+    overflow: hidden;
+    clear: both;
+}
+
+.form
+{
+    border: none;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    clear: both;
+}
+
+.form legend
+{
+    color: #127369;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 12px;
+    float: left;
+    width: 100%;
+    border-bottom: 2px solid #98cfc4;
+    padding-bottom: 6px;
+}
+
+.field
+{
+    margin-bottom: 12px;
+    overflow: hidden;
+    clear: both;
+    width: 100%;
+}
+
+#fields select
+{
+    height: 28px;
+    width: 55%;
+}
+
+.field label
+{
+    width: 180px;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    color: #2c4943;
+    padding-top: 6px;
+}
+
+.required
+{
+    color: red;
+}
+
+.sublabel
+{
+    font-weight: normal;
+    font-size: 11px;
+    color: #666;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea
+{
+    width: 320px;
+    padding: 6px 10px;
+    border: 1px solid #b5d5cf;
+    border-radius: 4px;
+    font-size: 13px;
+    outline: none;
+    background-color: #fff;
+    float: left;
+}
+
+textarea
+{
+    width: 100%;
+}
+
+.inlinefield .numberwrap
+{
+    float: left;
+    overflow: hidden;
+}
+
+.numberwrap input
+{
+    width: 70px !important;
+    float: left !important;
+    margin-right: 10px;
+}
+
+.hint
+{
+    font-size: 12px;
+    color: #666;
+    float: left;
+    padding-top: 6px;
+}
+
+.radio, .checkbox
+{
+    float: left;
+    font-size: 13px;
+    padding-top: 6px;
+}
+
+.radio label, .checkbox label
+{
+    width: auto;
+    font-weight: normal;
+    cursor: pointer;
+    float: left;
+    margin-right: 20px;
+    padding-top: 0;
+}
+
+.checkbox
+{
+    width: 320px;
+    overflow: hidden;
+}
+
+.checkbox label
+{
+    width: 140px;
+    margin-bottom: 8px;
+    margin-right: 0;
+    float: left;
+}
+
+.special
+{
+    margin-bottom: 8px;
+}
+
+.formbuttons
+{
+    text-align: center;
+    margin-top: 15px;
+    clear: both;
+    overflow: hidden;
+    width: 100%;
+}
+
+.btn
+{
+    padding: 8px 25px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 13px;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.btnsubmit
+{
+    background-color: #127369;
+    color: white;
+}
+
+.btnreset
+{
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.btn:hover
+{
+    opacity: 0.9;
+}
+
+.footerbox
+{
+    background-color: #0d564f;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-size: 13px;
+    clear: both;
+    width: 100%;
+}

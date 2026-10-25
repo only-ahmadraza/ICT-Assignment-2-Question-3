@@ -1,0 +1,295 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body
+{
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.content
+{
+    width: 700px;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    text-align: left;
+    overflow: hidden;
+}
+
+.headerbox
+{
+    background-color: #127369;
+    color: #ffffff;
+    padding: 20px 30px;
+    height: 110px;
+}
+
+.headerbox h1
+{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.headerbox td
+{
+    border: none;
+    vertical-align: middle;
+}
+
+.group img
+{
+    width: 120px;
+    height: auto;
+    margin-right: 10px;
+    margin-top: 4px;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-right: 10px;
+}
+
+.group
+{
+   text-align: center;
+}
+
+.headtext
+{
+    overflow: hidden;
+    display: inline-block;
+    color: #ffffff;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.tagline
+{
+    font-size: 13px;
+    font-style: italic;
+    opacity: 0.9;
+    padding-top: 5px;
+}
+
+.navigationbar
+{
+    background-color: #d1ebe5;
+    padding: 10px 30px;
+    overflow: hidden;
+}
+
+.link
+{
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 4px;
+    color: #127369;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 10px;
+    float: left;
+}
+
+.link.active
+{
+    background-color: #127369;
+    color: white;
+}
+
+.split
+{
+    padding: 30px;
+    overflow: hidden;
+}
+
+.introtext
+{
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+}
+
+.introtext h2
+{
+    color: #127369;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+.introtext p
+{
+    line-height: 1.5;
+    color: #555;
+    font-size: 16px;
+}
+
+.introimage
+{
+    width: 50%;
+    float: left;
+}
+
+.introimage img
+{
+    width: 100%;
+    height: 20%;
+    border-radius: 8px;
+    display: block;
+}
+
+.destination
+{
+    padding: 0px 30px 30px 30px;
+    clear: both;
+    overflow: hidden;
+}
+
+.destination h2
+{
+    color: #127369;
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #127369;
+    padding-bottom: 5px;
+}
+
+.topdivide
+{
+    overflow: hidden;
+    width: 100%;
+}
+
+.card
+{
+    width: 31%;
+    float: left;
+    margin-right: 3.5%;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.card:last-child
+{
+    margin-right: 0;
+}
+
+.card img
+{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    display: block;
+}
+
+.cardinfo
+{
+    padding: 12px;
+}
+
+.cardinfo h3
+{
+    color: #127369;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.cardinfo p
+{
+    font-size: 12px;
+    color: #666;
+    line-height: 1.4;
+}
+
+.bottomdivide
+{
+    padding: 0 30px 30px 30px;
+    overflow: hidden;
+    clear: both;
+}
+
+.table
+{
+    width: 63%;
+    float: left;
+    padding-right: 15px;
+}
+
+.table h2, .tipssection h2
+{
+    color: #127369;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+th, td
+{
+    border: 1px solid #c2e2dc;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+th
+{
+    background-color: #127369;
+    color: white;
+}
+
+tr:nth-child(even)
+{
+    background-color: #f8fbfb;
+}
+
+.tips
+{
+    width: 37%;
+    float: left;
+    background-color: #e6f4f1;
+    padding-top: 15px;
+    border-radius: 8px;
+}
+
+.tipsheading
+{
+    font-size: 12px;
+    padding-bottom: 12px;
+    color: #127369;
+}
+
+.tips ul
+{
+    padding-left: 28px;
+}
+
+.tips li
+{
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.footerbox
+{
+    background-color: #0d564f;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-size: 13px;
+    clear: both;
+    width: 100%;
+}

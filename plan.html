@@ -1,0 +1,132 @@
+<html>
+<head>
+    <title>Plan Your Trip - Explore Pakistan</title>
+    <link rel="stylesheet" href="plan.css">
+</head>
+<body>
+
+    <div class="page">
+        <div class="headerbox">
+            <table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                        <div class="group">
+                            <img src="mountain.png" alt="mountain">
+                            <span class="headtext">
+                                <h1>Explore Pakistan</h1>
+                                <p class="tagline">Beautiful Places &nbsp;•&nbsp; Rich Culture &nbsp;•&nbsp; Unforgettable Experiences</p>
+                            </span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="navigationbar">
+            <a href="home.html" class="link">Home</a>
+            <a href="plan.html" class="link active">Plan Your Trip</a>
+        </div>
+
+        <div class="content">
+            <h2>Plan Your Trip</h2>
+            <p class="detail">Fill in the form below to plan your dream trip to Pakistan. Make sure to provide all the required details so we can suggest the best options for you.</p>
+
+            <a href="home.html" class="backlink">&larr; Back to Home</a>
+
+            <form class="tripform">
+
+                <div id="fields">
+                    <fieldset class="form">
+                        <legend>Personal Information</legend>
+
+                        <div class="field">
+                            <label for="fullname">Full Name <span class="required">*</span></label>
+                            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                        </div>
+
+                        <div class="field">
+                            <label for="email">Email Address <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+                        </div>
+
+                        <div class="field">
+                            <label for="phone">Phone Number</label>
+                            <input type="text" id="phone" name="phone" placeholder="03XX-XXXXXXX">
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="form">
+                        <legend>Trip Details</legend>
+
+                        <div class="field">
+                            <label for="destination">Destination <span class="required">*</span></label>
+                            <select id="destination" name="destination" required>
+                                <option value="" selected>Select a destination</option>
+                                <option value="hunza">Hunza Valley</option>
+                                <option value="skardu">Skardu</option>
+                                <option value="murree">Murree</option>
+                                <option value="swat">Swat Valley</option>
+                            </select>
+                        </div>
+
+                        <div class="field">
+                            <label for="departure">Departure Date <span class="required">*</span></label>
+                            <input type="date" id="departure" name="departure" placeholder="dd/mm/yyyy" required>
+                        </div>
+
+                        <div class="field inlinefield">
+                            <label for="travelers">Number of Travelers</label>
+                            <div class="numberwrap">
+                                <input type="text" id="travelers" name="travelers" value="1">
+                                <span class="hint">(1 - 10)</span>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <fieldset class="form">
+                    <legend>Travel Preferences</legend>
+
+                    <div class="field">
+                        <label>Travel Type <span class="required">*</span></label>
+                        <div class="radio">
+                            <label><input type="radio" name="travel_type" value="solo" checked> Solo</label>
+                            <label><input type="radio" name="travel_type" value="family"> Family</label>
+                            <label><input type="radio" name="travel_type" value="friends"> Friends</label>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label>Interests <span class="sublabel">(you can select more than one)</span></label>
+                        <div class="checkbox">
+                            <label><input type="checkbox" name="interests" value="sightseeing"> Sightseeing</label>
+                            <label><input type="checkbox" name="interests" value="photography"> Photography</label>
+                            <label><input type="checkbox" name="interests" value="hiking"> Hiking</label>
+                            <label><input type="checkbox" name="interests" value="shopping"> Shopping</label>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="form">
+                    <legend>Special Requests</legend>
+                    <div class="field">
+                        <label class="special" for="requests">Tell us if you have any special requests</label>
+                        <textarea id="requests" name="requests" rows="3" placeholder="e.g. room preference, dietary needs, etc."></textarea>
+                    </div>
+                </fieldset>
+
+                <div class="formbuttons">
+                    <button type="submit" class="btn btnsubmit">Submit</button>
+                    <button type="reset" class="btn btnreset">Reset</button>
+                </div>
+
+            </form>
+        </div>
+
+        <div class="footerbox">
+            Made by Ahmad Raza | Roll No: 26L-2064
+        </div>
+    </div>
+
+</body>
+</html>
